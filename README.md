@@ -1,1 +1,1 @@
-# gitskills
+# webapp for scientific calculation 
