@@ -4,6 +4,42 @@
 <head>
   <meta charset="UTF-8">
   <link rel = "stylesheet" href="./styles.css">
+  <style>
+    nav a{
+	 float:left;
+     width:20%;
+     color:white;
+     background-color:blue;
+     padding:0.2em 0.6em;
+	 text-align:center;
+     border-right:1px solid white;
+	}
+	
+	div.header,div.footer
+	{
+	padding:0.5em;
+	color:white;
+	background-color:gray;
+	clear:left;
+	}
+	div.history
+	{
+	float:left;
+	width:25%;
+	padding:1em;
+	}
+	div.command
+	{
+	margin-left:28%;
+	border-left:1px solid gray;
+	padding:1em;
+	}
+	
+	footer
+	{
+	text-align:center;
+	}
+  </style>
   <!--<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">-->
 </head>
 
@@ -13,154 +49,21 @@
   <hr>
   
   <nav>
-  <a href="/html/">HTML</a> |
-  <a href="/css/">CSS</a> |
-  <a href="/js/">JavaScript</a> |
-  <a href="/jquery/">jQuery</a>
+  <a href="#">File</a> 
+  <a href="#">Edit</a> 
+  <a href="#">App</a> 
+  <a href="#">Support</a>
   </nav>
-  
-  <form action="/action_page.php" target="_blank" method="post">
-    <label for="fname"> First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname">
-    <input type="submit" value="Submit">
-    
-    <button type="button" onclick="alert('Hello World!')">CLick me!</button>
-  </form>
-  
-  <form action="/action_page.php">
-  <input list="browsers">
-  <datalist id="browsers">
-    <option value="Internet Explorer">
-    <option value="Firefox">
-    <option value="Chrome">
-    <option value="Opera">
-    <option value="Safari">
-  </datalist>
-  </form>
-  
-  <form action="/action_page.php"
-  oninput="x.value=parseInt(a.value)+parseInt(b.value)">
-  0
-  <input type="range"  id="a" name="a" value="50">
-  100 +
-  <input type="number" id="b" name="b" value="50">
-  =
-  <output name="x" for="a b"></output>
-  <br><br>
-  <input type="submit">
-  </form>
-  
-  <form>
-  <label for="myfile">Select a file:</label>
-  <input type="file" id="myfile" name="myfile">
-  </form>
-  <form>
-  
-  
-    <input type="radio" id="male" name="gender" value="male">
-    <label for="male">Male</label><br>
-    <input type="radio" id="female" name="gender" value="female">
-    <label for="female">Female</label><br>
-    <input type="radio" id="other" name="gender" value="other">
-    <label for="other"> Other</label>
-  </form>
-  
-  <ul>
-  <li><a href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-  </ul>
-  
-  <div style="background-color:black;color:white;padding:20px;">
-    <h2> London </h2>
-    <p> London is the capital city of England. It is the most populous city in UK
-    </p>
-  </div> 
-  
-  <iframe src="http://www.baidu.com" height="200" width="200" title="Baidu"></iframe>
   <br>
-  <code>
-  x=5;<br>
-  y=6;<br>
-  z=x+y;<br>
-  </code>
   <br>
-  <table style = "width:100%" id = "t01">
-    <caption> Guiding </caption>
-    <tr>
-      <th> Firstname</th>
-      <th colspan="2"> Lastname </th>
-    </tr>
-    
-    <tr>
-      <th rowspan="2"> Jill</th>
-      <th> Smith </th>
-      <th> 50 </th>
-    </tr>
-    
-    <tr>
-      <th> Jackson </th>
-      <th> 94 </th>
-    </tr>
-  </table>
-
+  <br>
   
-  <ul style="list-style-type:none">
-     <li>Coffee</li>
-     <li>Milk</li>
-     <ul>
-       <li> Black Milk </li>
-       <li> White Milk </li>
-     </ul>
-     <li>white cold drink</li>
-  </ul>
+  <div class="history"><p>Command History</p></div>
+  <div class="command"><h2>This is the command window</h2></div>
   
-  <p> My First <br>Paragraph.</p>
-  <hr>
-
-  <button onclick=" "> Click </button>
-
-  <pre>
-    Scientific Calulciton is very important;
-    We aim to develop a convenient tool that everyone can use;
-  </pre>
-  <hr>
-
-  <p> <mark>This is another<ins> paragraph</ins>.</mark></p>
-  <a href = "http://www.baidu.com" target="_blank"> This is a link </a>
-  <hr>
-
-  <p>
-  <a href = "http://www.google.com" target="_blank"> Google </a>
-  </p>
-
-  <p>
-  <a href = "index.html#1"> Jump to Head </a>
-  </p>
-
-  <p title="ICONS">
-    <img src="./resources/icons.png" alt = "icons" style="width:400px;height:400px;float:left" usemap="#workmap">
-    <map name="workmap">
-    <area shape="rect" coords="34,44,220,220",alt="Start" href="http://www.youtube.com" onclick="myFunction()">
-    </map>
-
-    <img src="https://www.w3schools.com/images/w3schools_green.jpg" style="width:400px;height:400px;float:right">
-  </p>
-
-<script>
-  function myFunction()
-  {
-     alert("You click the youtube")
-  }
-</script>
-
-<footer>
-  <p>Author: Hege Refsnes</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
-</footer>
+  <footer>
+  <p>Copyright by Youshuang Ding</p>
+  </footer>
 
 
 </body>
