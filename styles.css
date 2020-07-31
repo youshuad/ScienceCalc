@@ -1,0 +1,63 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: gray;
+    border: green;
+    border-style: dotted;
+}
+nav{
+    background-color:rgb(16, 4, 179);
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+
+}
+nav li{
+    display: inline-block;
+    margin-left: 10px;
+}
+nav li:hover{
+    background-color: grey;
+}
+header{
+    text-align: left;
+}
+
+
+footer
+{
+padding:0.5em;
+color:white;
+background-color:gray;
+clear:left;
+}
+div.history
+{
+float:left;
+width:25%;
+padding:1em;
+}
+div.command
+{
+margin-left:28%;
+border-left:1px solid gray;
+padding:1em;
+}
+
+footer
+{
+text-align:center;
+}
+a{
+    color: rgb(107, 189, 132);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
