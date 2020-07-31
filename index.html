@@ -2,72 +2,43 @@
 <html lang="en-US">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>WebApp for Scientific Calculation</title>
-  <link rel = "stylesheet" href="./styles.css">
-  <style>
-    nav a{
-	 float:left;
-     width:20%;
-     color:white;
-     background-color:blue;
-     padding:0.2em 0.6em;
-	 text-align:center;
-     border-right:1px solid white;
-	}
-	
-	div.header,div.footer
-	{
-	padding:0.5em;
-	color:white;
-	background-color:gray;
-	clear:left;
-	}
-	div.history
-	{
-	float:left;
-	width:25%;
-	padding:1em;
-	}
-	div.command
-	{
-	margin-left:28%;
-	border-left:1px solid gray;
-	padding:1em;
-	}
-	
-	footer
-	{
-	text-align:center;
-	}
-  </style>
-  <!--<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebApp for Scientific Calculation</title>
+    <link rel = "stylesheet" href="./styles.css">
 </head>
 
 <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/draw.html">Draw</a></li>
+          <li><a href="pages/app.html">App</a></li>
+        </ul>
+      </nav>
 
-  <h1 id="1"> WebApp for Scientific Calculation</h1>
-  <hr>
-  
-  <nav>
-  <a href="#">File</a> 
-  <a href="#">Edit</a> 
-  <a href="#">App</a> 
-  <a href="#">Support</a>
-  </nav>
-  <br>
-  <br>
-  <br>
-  
-  <div class="history"><p>Command History</p></div>
-  <div class="command"><h2>This is the command window</h2></div>
-  
-  <footer>
-  <p>Copyright by Youshuang Ding</p>
-  </footer>
+      <menu>
+        <ul>
+          <li><a href="index.html">NewFile</a></li>
+          <li><a href="pages/draw.html">ImportData</a></li>
+          <li><a href="pages/app.html">Clear</a></li>
+        </ul>
+      </menu>
+    </header>
 
+    <section class="history">
+      <p>Command History</p>
+    </section>
 
+    <div class="command">
+      <h2>This is the command window</h2>
+    </div>
+
+    <footer>
+        <p>Copyright by Youshuang Ding</p>
+    </footer>
 </body>
+
 </html>
